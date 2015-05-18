@@ -46,7 +46,7 @@ public class MyActivity extends Activity {
         mPaint.setStrokeCap(Paint.Cap.ROUND);
 
         //Set the width for stroking. Pass 0 to stroke in hairline mode. Hairlines always draws a single pixel independent of the canva's matrix.
-        mPaint.setStrokeWidth(12);
+        mPaint.setStrokeWidth(10);
     }
 
     @Override
