@@ -69,7 +69,6 @@ public class MyActivity extends Activity {
         switch (item.getItemId()){
             case CLEAR_AREA:
             {
-                Toast.makeText(this, "CLEAR_AREA", Toast.LENGTH_SHORT).show();
                 dv = new DrawingView(this, mPaint);
                 setContentView(dv);
                 break;
